@@ -1,232 +1,102 @@
-
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Insert title here</title>
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link rel="stylesheet" href="Bai5.css">
-    <link rel="stylesheet" href="button.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
-         <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-		<fieldset>
-		
-			<legend><center><h2><b>Registration Form</b></h2></center></legend><br>
-			
-			<div class="form-group">
-				<label class="col-md-4 control-label">First Name</label>  
-				<div class="col-md-4 inputGroupContainer">
-					<div class="input-group">
-						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-						<input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-				    </div>
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<label class="col-md-4 control-label" >Last Name</label> 
-			    <div class="col-md-4 inputGroupContainer">
-				    <div class="input-group">
-						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-					  	<input name="last_name" placeholder="Last Name" class="form-control"  type="text">
-				    </div>
-			  	</div>
-			</div>
-			
-	       	<div class="form-group">
-			  	<label class="col-md-4 control-label">E-Mail</label>  
-			    <div class="col-md-4 inputGroupContainer">
-				    <div class="input-group">
-				        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-				  		<input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-				    </div>
-			  	</div>
-			</div>
-			
-			<!-- Text input-->
-			       
-			<div class="form-group">
-			  <label class="col-md-4 control-label">Phone #</label>  
-			    <div class="col-md-4 inputGroupContainer">
-			    <div class="input-group">
-			        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-			  		<input name="contact_no" placeholder="(845)555-1212" class="form-control" type="text">
-			    </div>
-			  </div>
-			</div>
-			
-			<!-- Text input-->
-			       
-			<div class="form-group">
-			  <label class="col-md-4 control-label">Address</label>  
-			    <div class="col-md-4 inputGroupContainer">
-			    <div class="input-group">
-			        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-			  		<input name="contact_no" placeholder="Address" class="form-control" type="text">
-			    </div>
-			  </div>
-			</div>
-			
-			<!-- Text input-->
-			       
-			<div class="form-group">
-			  <label class="col-md-4 control-label">City</label>  
-			    <div class="col-md-4 inputGroupContainer">
-			    <div class="input-group">
-			        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-			  		<input name="contact_no" placeholder="City" class="form-control" type="text">
-			    </div>
-			  </div>
-			</div>
-			
-		  	<div class="form-group"> 
-		  		<label class="col-md-4 control-label">State</label>
-			    <div class="col-md-4 selectContainer">
-				    <div class="input-group">
-				        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-					    <select name="state" class="form-control selectpicker">
-						      <option value="">Please select your state</option>
-						      <option>Alabama</option>
-						      <option>Alaska</option>
-						      <option>Arizona</option>
-						      <option>Arkansas</option>
-						      <option>California</option>
-						      <option>Colorado</option>
-						      <option>Connecticut</option>
-						      <option>Delaware</option>
-						      <option>Florida</option>
-						      <option>Georgia</option>
-						      <option>Hawaii</option>
-						      <option>Idaho</option>
-						      <option>Illinois</option>
-						      <option>Indiana</option>
-						      <option>Iowa</option>
-						      <option>Kansas</option>
-						      <option>Kentucky</option>
-						      <option>Louisiana</option>
-						      <option>Maine</option>
-						      <option>Maryland</option>
-						      <option>Massachusetts</option>
-						      <option>Michigan</option>
-						      <option>Minnesota</option>
-						      <option>Mississippi</option>
-						      <option>Missouri</option>
-						      <option>Montana</option>
-						      <option>Nebraska</option>
-						      <option>Nevada</option>
-						      <option>New Hampshire</option>
-						      <option>New Jersey</option>
-						      <option>New Mexico</option>
-						      <option>New York</option>
-						      <option>North Carolina</option>
-						      <option>North Dakota</option>
-						      <option>Ohio</option>
-						      <option>Oklahoma</option>
-						      <option>Oregon</option>
-						      <option>Pennsylvania</option>
-						      <option>Rhode Island</option>
-						      <option>South Carolina</option>
-						      <option>South Dakota</option>
-						      <option>Tennesse</option>
-						      <option>Texas</option>
-						      <option>Utah</option>
-						      <option>Vermont</option>
-						      <option>Virginia</option>
-						      <option>Washington</option>
-						      <option>West Virginia</option>
-						      <option>Wisconsin</option>
-						      <option>Wyoming</option>
-					    </select>
-				  	</div>
-				</div>
-			</div>
-			
-			<!-- Text input-->
-			       
-			<div class="form-group">
-			  <label class="col-md-4 control-label">Zip Code</label>  
-			    <div class="col-md-4 inputGroupContainer">
-			    <div class="input-group">
-			        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-			  		<input name="contact_no" placeholder="Zip Code" class="form-control" type="text">
-			    </div>
-			  </div>
-			</div>
-			  
-			<!-- Text input-->
-			
-			<div class="form-group">
-				<label class="col-md-4 control-label">Website or domain name</label>  
-			  	<div class="col-md-4 inputGroupContainer">
-				  	<div class="input-group">
-					  	<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-					  	<input  name="user_name" placeholder="Website or domain name" class="form-control"  type="text">
-				    </div>
-			  	</div>
-			</div>
-			
-			<!-- Text input-->
-			
-			<div class="form-group padding_7">
-			  	<label class="col-md-4 control-label-custom" >Do you have hosting?</label> 
-			    <div class="col-md-4 inputGroupContainer">
-				    <div class="input-group">
-					  	<div class="form-check">
-						  	<input class="form-check-input" type="radio">
-						  	<label class="form-check-label font-weight-normal">
-						    	Yes
-						  	</label>
-						</div>
-						<div class="form-check">
-						  	<input class="form-check-input" type="radio">
-						  	<label class="form-check-label font-weight-normal">
-						    	No
-						  	</label>
-						</div>
-				    </div>
-			  	</div>
-			</div>
-			
-			<!-- Text input-->
-			       
-			<div class="form-group">
-			  	<label class="col-md-4 control-label">Project Description</label>  
-			    <div class="col-md-4 inputGroupContainer">
-				    <div class="input-group">
-				        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-				  		<textarea name="P_Description" placeholder="Project Description" class="form-control">
-				  		</textarea>
-				    </div>
-			  	</div>
-			</div>
-			
-			<!-- Button -->
-			<div class="form-group">
-				<label class="col-md-4 control-label"></label>
-				<div class="col-md-4"><br>
-			  		<button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
-				</div>
-			</div>
-		
-		</fieldset>
-	</form>
-	</div>
- 
-    <div>
-        <a href="index.jsp">&lt;</a>
+        <h1 class="text-uppercase">Contact Us Today!</h1>
+        <form class="text-center">
+            <div class="row">
+                <div class="field">
+                    <label for="first-name">First Name</label>
+                    <div class="fa fa-user-circle" style="margin-left: 98px;"></div>
+                    <input type="text" id="first-name" name="first-name" style="width: 500px;">
+                </div>
+                <div class="field">
+                    <label for="last-name">Last Name</label>
+                    <div class="fa fa-user-circle" style="margin-left: 100px; margin-top: 20px;"></div>
+                    <input type="text" id="last-name" name="last-name" style="width: 500px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="email">E-Mail</label>
+                    <div class="fa fa-envelope" style="margin-left: 129px; margin-top: 20px;"></div>
+                    <input type="email" id="email" name="email" style="width: 500px">
+                </div>
+                <div class="field">
+                    <label for="phone">Phone#</label>
+                    <div class="fa fa-phone-square" style="margin-left: 121px; margin-top: 20px;"></div>
+                    <input type="tel" id="phone" name="phone" style="width: 500px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="address">Address</label>
+                    <div class="fa fa-home" style="margin-left: 115px; margin-top: 20px;"></div>
+                    <input type="text" id="address" name="address" style="width: 500px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="city">City</label>
+                    <div class="fa fa-home" style="margin-left: 144px; margin-top: 20px;"></div>
+                    <input type="text" id="city" name="city" style="width: 500px">
+                </div>
+                <div class="field">
+                    <label for="state">State</label>
+                    <div class="fa fa-list" style="margin-left: 136px; margin-top: 20px;"></div>
+                    <select id="state" name="state" style="width: 500px">
+            <option value="" disabled selected>Please select your state</option>
+            <option value="AL">BangKok</option>
+            <option value="AK">VietNam</option>
+            <option value="AK">Campuchia</option>
+            <option value="AK">HanQuoc</option>
+            <option value="AK">NhatBan</option>
+            <option value="AK">Indonesia</option>
+            <option value="AK">Malaysia</option>
+            <option value="AK">VietNam</option>
+            <option value="AK">VietNam</option>
+            <option value="AK">VietNam</option>
+            ...
+          </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="zip-code">Zip Code</label>
+                    <div class="fa fa-home" style="margin-left: 104px; margin-top: 20px;"></div>
+                    <input type="text" id="zip-code" name="zip-code" style="width: 500px">
+                </div>
+                <div class="field">
+                    <label for="website">Website </label>
+                    <div class="fa fa-globe" style="margin-left: 115px; margin-top: 20px;"></div>
+                    <input type="text" id="website" name="website" style="width: 500px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="hosting">Do you have hosting?</label>
+                    <input type="radio" id="hosting-yes" name="hosting" value="yes" style="margin-left: 100px;">
+                    <label for="hosting-yes">Yes</label>
+                    <input type="radio" id="hosting-no" name="hosting" value="no">
+                    <label for="hosting-no">No</label>
+                </div>
+                <div class="field">
+                    <label for="project-description" style="margin-right: 50px;">Project Description</label>
+                    <textarea id="project-description" name="project-description" style="width: 500px"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
     </div>
 </body>
+
 </html>
-
-
