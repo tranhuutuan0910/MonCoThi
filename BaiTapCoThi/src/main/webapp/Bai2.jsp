@@ -13,7 +13,7 @@
 			<h1>Header</h1>
 		</header>
 		
-		<img alt="i'm poor" src="anhdep.jpg">
+		<img alt="i'm poor" src="anhcho.jpg">
 		<p>A car is a wheeled, self-powered motor vehicle used for
 transportation. Most definitions of the term specify that cars
 are designed to run primarily on roads. (Wikipedia)</p>
@@ -22,7 +22,7 @@ are designed to run primarily on roads. (Wikipedia)</p>
 			<h1>Footer</h1>
 		</footer>
 	</div>
-		<a href="index.jsp">&lt</a>
+		<a href="index.jsp">Quay Về Nào &lt</a>
 </body>
 </html>
 

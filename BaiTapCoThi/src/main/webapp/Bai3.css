@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0px;
+    border: auto solid rgb(243, 238, 238);
+}
+
+th,
+td {
+    border: 1px solid rgb(12, 11, 11);
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #a1999f;
+    border: none;
+    color: rgb(11, 11, 11);
+}
+
+table td {
+    border: none;
+}
+
+table tr:nth-child(even) td {
+    background-color: #e8ebea;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #a1999f;
+}
+
+h1:nth-of-type(2),
+table:nth-of-type(2) {
+    font-size: 10px;
+}
+
+table:nth-of-type(2) {
+    width: 80%;
+}

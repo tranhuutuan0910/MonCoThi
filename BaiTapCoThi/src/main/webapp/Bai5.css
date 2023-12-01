@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@charset "ISO-8859-1";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.container {
+    min-height: 100vh;
+    overflow: auto;
+}
+
+
+
